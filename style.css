@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'breaking_bad';
+    src: url('./heart_breaking_bad/Heart\ Breaking\ Bad.otf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    font-family: 'breaking_bad';
+    font-size: 100px;
+    text-align: center;
+    margin-top: 130px;
+    color: white;
+}
+
+header{
+    background-image: url(https://guiadeseries.com/wp-content/uploads/2022/07/breaking-bad.jpg);
+    background-position: 0px 650px;
+    display: block;
+    width: 100%;
+    height: 400px;
+    float: left;
+}
+
+article{
+    display: block;
+    background-color: white;
+    width: 60%;
+    height: 1700px;
+    float: left;
+}
+
+.divarticle{
+    display: block;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 30px;
+    list-style: upper-roman;
+}
+
+.divarticle img{
+    width: 150px;
+    height: auto;
+}
+
+aside{
+    background-color: black;
+    display: block;
+    width: 40%;
+    height: 1700px;
+    float: left;
+}
+
+.divaside{
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+    font-size: 30px;
+    list-style: none;
+}
+
+.letra{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+    background-color: gray;
+    display: block;
+    width: 100%;
+    height: 150px;
+    float: left;
+    color: black;
+    font-size: 15px;
+}
+
+h3{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.pfooter{
+    margin-left: 10px;
+    float: left;
+    font-size: 15px;
+    width: 90%;
+}
+
+.pfooter img{
+    width: 15px;
+    height: 15px;
+    float: left;
+}
